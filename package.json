@@ -4,6 +4,14 @@
   "description": "a generic boiler plate code for Node.js modules",
   "bin": "main-lib.js",
   "main": "main-lib.js",
+  "files": [
+    "lib",
+    "main-lib.js",
+    "AUTHORS",
+    "LICENSE",
+    "CHANGELOG.markdown",
+    "README.markdown"
+  ],
   "scripts": {
     "test": "jshint --config test/.jshintrc --reporter unix test && jscs --config .jscsrc --es3 --no-colors --reporter unix test && jshint --config lib/.jshintrc --reporter unix lib && jscs --config .jscsrc --es3 --no-colors --reporter unix lib && mocha --async-only --no-colors --reporter spec --sort --bail --ui bdd --check-leaks --full-trace --inline-diffs --no-exit --recursive --require main-test.js"
   },
@@ -14,7 +22,8 @@
   "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jakutis/generic-boilerplate/issues"
+    "url": "https://github.com/jakutis/generic-boilerplate/issues",
+    "email": "vytautas@jakut.is"
   },
   "homepage": "https://github.com/jakutis/generic-boilerplate#readme",
   "dependencies": {
