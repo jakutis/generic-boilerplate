@@ -1,0 +1,34 @@
+{
+  "name": "generic-boilerplate",
+  "version": "1.0.0",
+  "description": "a generic boiler plate code for Node.js modules",
+  "bin": "main-lib.js",
+  "main": "main-lib.js",
+  "scripts": {
+    "test": "jshint --config test/.jshintrc --reporter unix test && jscs --config .jscsrc --es3 --no-colors --reporter unix test && jshint --config lib/.jshintrc --reporter unix lib && jscs --config .jscsrc --es3 --no-colors --reporter unix lib && mocha --async-only --no-colors --reporter spec --sort --bail --ui bdd --check-leaks --full-trace --inline-diffs --no-exit --recursive --require main-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakutis/generic-boilerplate.git"
+  },
+  "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakutis/generic-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jakutis/generic-boilerplate#readme",
+  "dependencies": {
+    "bluebird": "latest",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "jscs": "latest",
+    "jshint": "latest",
+    "mocha": "latest",
+    "sinon": "latest",
+    "sinon-as-promised": "latest",
+    "sinon-chai": "latest"
+  }
+}
