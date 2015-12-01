@@ -1,6 +1,6 @@
-# NAME_OF_PROJECT
+# generic-boilerplate
 
-DESCRIPTION_OF_PROJECT
+a generic boiler plate code for Node.js modules
 
 - [Overview](#overview)
 - [Installation](#installation)
