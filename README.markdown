@@ -24,7 +24,12 @@ DESCRIPTION_OF_PROJECT
 
     TODO
 
-## Development
+## Development 
 
-    TODO
+1. Run `npm test` on each change in `src` or `test` directories.
 
+## Releasing
+
+1. Bump version in `CHANGELOG.markdown` and `package.json` files.
+2. Run `npm publish`.
+3. Run `git tag v1.2.3`.
