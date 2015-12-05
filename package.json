@@ -29,7 +29,8 @@
   "homepage": "https://github.com/jakutis/generic-boilerplate#readme",
   "dependencies": {
     "bluebird": "latest",
-    "lodash": "latest"
+    "lodash": "latest",
+    "require-all": "latest"
   },
   "devDependencies": {
     "chai": "latest",
