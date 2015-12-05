@@ -1,4 +1,4 @@
-# generic-boilerplate
+# generic-boilerplate [![Build Status](https://travis-ci.org/jakutis/generic-boilerplate.svg?branch=master)](https://travis-ci.org/jakutis/generic-boilerplate)
 
 a generic boiler plate code for Node.js modules
 
