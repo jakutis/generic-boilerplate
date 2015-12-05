@@ -4,7 +4,7 @@ global._ = require('lodash');
 global.Promise = require('bluebird');
 
 if (require.main === module) {
-  require('./lib/bin');
+  require('./lib/bin').run();
 } else {
-  require('./lib/main');
+  return require('./lib/main');
 }
